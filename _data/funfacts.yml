@@ -1,9 +1,9 @@
 - counter: 150
   icon: ion-ios-timer-outline
   text: Hours
-- counter: 3
+- counter: 700
   icon: ion-ios-compose-outline
-  text: Verticals
+  text: Students
 - counter: 40
   icon: ion-ios-glasses-outline
   text: Mentors
