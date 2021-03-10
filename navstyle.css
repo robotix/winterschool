@@ -8,8 +8,8 @@
    }
 
    .carousel .item img {
-    max-height: 200;
+    max-height: auto;
     /* min-width: auto; */
-    /* width: auto; */
+    width: auto;
     margin: auto;
   }
