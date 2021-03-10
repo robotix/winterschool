@@ -6,3 +6,10 @@
 .navlink{
     margin-top: 12px;
    }
+
+   .carousel .item img {
+    max-height: 200;
+    /* min-width: auto; */
+    /* width: auto; */
+    margin: auto;
+  }
