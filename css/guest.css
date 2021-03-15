@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+  }
+
+  .ccol-1 {width: 8.33%;}
+.ccol-2 {width: 16.66%;}
+.ccol-3 {width: 25%;}
+.ccol-4 {width: 33.33%;}
+.ccol-5 {width: 41.66%;}
+.ccol-6 {width: 50%;}
+.ccol-7 {width: 58.33%;}
+.ccol-8 {width: 66.66%;}
+.ccol-9 {width: 75%;}
+.ccol-10 {width: 83.33%;}
+.ccol-11 {width: 91.66%;}
+.ccol-12 {width: 100%;}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+[class*="ccol-"] {
+    float: left;
+    padding: 15px;
+    
+  }
+
+
+  
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    min-height: 800px;
+    padding: 15px 20px;
+    margin: auto;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
+  }
+
+  .card img{
+    max-height: 300px;
+    border-radius: 15px 15px 0 0;
+  }
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .card p{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+  #button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: rgb(165, 166, 189);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  #card-link {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
