@@ -42,8 +42,9 @@
   }
 
   .card img{
-    max-height: 300px;
+    max-height: 500px;
     border-radius: 15px 15px 0 0;
+    background-size: cover;
   }
   .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
@@ -69,10 +70,12 @@
     cursor: pointer;
     width: 100%;
     font-size: 18px;
+    float: bottom;
   }
   
   #card-link {
     text-decoration: none;
     font-size: 22px;
     color: black;
+    padding: 10px;
   }
