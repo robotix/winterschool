@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Verticals</title>
+    <link rel="shortcut icon" type="image/jpg" href="../Images/trs logo_1.png"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://kit.fontawesome.com/75578d0f7f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../styles/style.css">
+    <link rel="stylesheet" href="../../styles/register-button.css">
+    <link rel="stylesheet" href="../../styles/verticals.css">
+    <link rel="stylesheet" href="../../styles/download-card.css">
+    <link rel="stylesheet" href="../../styles/footer.css">
+</head>
+
+<body onLoad="window.scroll(0, 800); activateCV()">
+    <div id="brand-name-section">
+        <a href="https://2020.robotix.in/">Technology Robotix Society</a>
+    </div>
+    <div id="register-section">
+    <a class="float-button" target="_blank" href="https://faq.whatsapp.com/general/chats/how-to-use-click-to-chat/?lang=en">
+        <i class="fa fa-user" aria-hidden="true"></i>
+        <span>Register Now<span>
+      </a>
+    </div>
+
+    <div id="mySidebar" class="sidebar" onmouseover="toggleSidebar()" onmouseout="toggleSidebar()">
+        <a href="https://2020.robotix.in/"><img src="../Images/Robotix Logo_1.png" alt="robotix-logo" id="rbtx"></a>
+        <a href="../../index.html"><span><i class="material-icons">home</i><span
+          class="icon-text">&nbsp;&nbsp;&nbsp;home</span></a><br>
+        <a href="../../index.html#about-section"><span><i class="material-icons">info</i><span
+          class="icon-text">&nbsp;&nbsp;&nbsp;about</span></a><br>
+        <a href="../../index.html#timeline-section"><i class="material-icons">insert_invitation</i><span
+        class="icon-text">&nbsp;&nbsp;&nbsp;timeline</span>
+        </a><br>
+        <a href="#"><i class="material-icons">library_books</i><span
+        class="icon-text">&nbsp;&nbsp;&nbsp;verticals</span></a><br>
+        <a href="../Guest Lectures/guest-lectures.html"><i class="material-icons">person</i><span class="icon-text">&nbsp;&nbsp;&nbsp;guest lectures</span></a>
+        <br>
+        <a class="small-text" href="../../index.html#freshers-kit-section"><span class="icon-text">&nbsp;&nbsp;&nbsp;freshers' kit</span></a>
+        <br>
+        <a class="small-text" href="../Archive/archive.html"><span class="icon-text">&nbsp;&nbsp;&nbsp;archive</span></a>
+        <br>
+        <a class="small-text" href="../../index.html#contact-section"><span class="icon-text">&nbsp;&nbsp;&nbsp;contact<span></a>
+        <br>
+        </div>
+
+    <div id="main">
+        <div id="topbar">
+            <a href="../../index.html">
+                <div id="topbar-text">
+                    <img src="../Images/trs logo_1.png" alt="logo"><span id="main-text">Winter School of AI & Robotics</span>
+                </div>
+            </a>
+            <!-- <div id="toggler" onclick="darkmodetoggler()" style="position:absolute; right: 5%; float: right;"><i class="material-icons">light_mode</i></div> -->
+        </div>
+        <div id="hero-section">
+
+            <div><img src="../Images/hero-bg_1.png" alt="hero-bg"></div>
+            <div id="hero-text">
+                2022 Registrations Opening Soon
+            </div>
+            <div class="button_container">
+                <a href="../../index.html#timeline-section"><button class="btn time-btn"><span>VIEW PROGRAM TIMELINE</span></button></a>
+            </div>
+
+
+
+        </div>
+
+        <div id="countdown-section">
+            <div class="container-countdown">
+                <h2 id="headline">Countdown to Winter School</h1>
+                    <div id="countdown">
+                        <ul>
+                            <li><span id="days"></span>days</li>
+                            <li><span id="hours"></span>Hours</li>
+                            <li><span id="minutes"></span>Minutes</li>
+                            <li><span id="seconds"></span>Seconds</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    <div id="verticals-section">
+        <div>
+            <h1>Verticals</h1>
+        </div>
+        <div id="verticals-options-section">
+            <div class="year-row year-row-1">
+                <div class="year-column">
+                    <div class="year-card"  onclick="activateCV()">Computer Vision</div>
+                </div>
+                <div class="year-column">
+                    <div class="year-card" onclick="activateAuto()">Autonomous Robotics</div>
+                </div>
+                <div class="year-column">
+                    <div class="year-card" onclick="activateML()">Machine Learning</div>
+                </div>
+            </div>
+        </div>
+        <div id="vertical-cv" class="vertical-schedule">
+            <h2>Computer Vision</h2>
+            <p>Computer vision is a field of artificial intelligence (AI) that enables robots to derive meaningful information from digital images, videos, and other visual inputs — and take actions or make recommendations based on that information. Computer vision trains machines to perform various functions through cameras, data, and algorithms. From an engineer's perspective, it seeks to understand and automate tasks that the human visual system can do.</p><br>        
+            <h3>Schedule</h3>
+                <div class="tab">
+                    <button class="tablinks cv_link active" onclick="openDay(event,'cv','cv_link', 'CVZero')">Day 0</button>
+                    <button class="tablinks cv_link" onclick="openDay(event,'cv','cv_link', 'CVOne')">Day 1</button>
+                    <button class="tablinks cv_link" onclick="openDay(event,'cv','cv_link', 'CVTwo')">Day 2</button>
+                    <button class="tablinks cv_link" onclick="openDay(event,'cv','cv_link', 'CVThree')">Day 3</button>
+                    <button class="tablinks cv_link" onclick="openDay(event,'cv','cv_link', 'CVFour')">Day 4</button>
+                    <button class="tablinks cv_link" onclick="openDay(event,'cv','cv_link', 'CVFive')">Day 5</button>
+                    <button class="tablinks cv_link" onclick="openDay(event,'cv','cv_link', 'CVSix')">Day 6</button>
+                </div>
+                
+                <div id="CVZero" class="tabcontent cv activeDay">
+                    <h2>Syllabus</h2>
+                    <p>To be updated soon.</p>
+                        <!-- <h2>Resources</h2>
+                        <div class="dwnld-btn-container">
+
+                            <a href="Assets/Schedule/acad_cal2122_1.pdf" download rel="noopener noreferrer" target="_blank">
+                                <div class="dwnld-btn">
+                                    <div class="title">Lecture<br/>Slides</div>
+                                    <div class="subtitle">download</div>
+                                    <div class="arrow-right"></div>
+                                </div>
+                            </a>
+                            <a href="Assets/Schedule/acad_cal2122_1.pdf" download rel="noopener noreferrer" target="_blank">
+                                <div class="dwnld-btn">
+                                    <div class="title">Video<br/>Lectures</div>
+                                    <div class="subtitle">download</div>
+                                    <div class="arrow-right"></div>
+                                </div>
+                            </a>
+                        </div> -->
+
+                </div>
+                
+                <div id="CVOne" class="tabcontent cv">
+                    <h2>Syllabus</h2>
+                    <p>To be updated soon.</p>
+                </div>
+                
+                <div id="CVTwo" class="tabcontent cv">
+                    <h2>Syllabus</h2>
+                    <p>To be updated soon.</p>
+                </div>
+                <div id="CVThree" class="tabcontent cv">
+                    <h2>Syllabus</h2>
+                    <p>To be updated soon.</p>
+                </div>
+                <div id="CVFour" class="tabcontent cv">
+                    <h2>Syllabus</h2>
+                    <p>To be updated soon.</p>
+                </div>
+                <div id="CVFive" class="tabcontent cv">
+                    <h2>Syllabus</h2>
+                    <p>To be updated soon.</p>
+                </div>
+                <div id="CVSix" class="tabcontent cv">
+                    <h2>Syllabus</h2>
+                    <p>To be updated soon.</p>
+                </div>
+            </div>
+            <div id="vertical-auto" class="vertical-schedule">
+                <h2>Autonomous Robotics</h2>
+                <p>Autonomous Robotics designs and engineers robots to deal with their environment on their own, and work for extended periods of time without human intervention. They often have sophisticated features that can help them to perceive their environment, make decisions based on what it perceives and/or has been programmed to recognize conditions and then actuate a movement or manipulation within that environment. An autonomous robot is a robot that acts without recourse to human control.</p><br>    
+                <h3>Schedule</h3>
+                    <div class="tab">
+                        <button class="tablinks auto_link active" onclick="openDay(event,'auto','auto_link', 'AutoZero')">Day 0</button>
+                        <button class="tablinks auto_link" onclick="openDay(event,'auto','auto_link', 'AutoOne')">Day 1</button>
+                        <button class="tablinks auto_link" onclick="openDay(event,'auto','auto_link', 'AutoTwo')">Day 2</button>
+                        <button class="tablinks auto_link" onclick="openDay(event,'auto','auto_link', 'AutoThree')">Day 3</button>
+                        <button class="tablinks auto_link" onclick="openDay(event,'auto','auto_link', 'AutoFour')">Day 4</button>
+                        <button class="tablinks auto_link" onclick="openDay(event,'auto','auto_link', 'AutoFive')">Day 5</button>
+                        <button class="tablinks auto_link" onclick="openDay(event,'auto','auto_link', 'AutoSix')">Day 6</button>
+                    </div>
+                    
+                    <div id="AutoZero" class="tabcontent auto activeDay">
+                        <h2>Syllabus</h2>
+                    <p>To be updated soon.</p>
+                    </div>
+                    
+                    <div id="AutoOne" class="tabcontent auto">
+                        <h2>Syllabus</h2>
+                    <p>To be updated soon.</p>
+                    </div>
+                    
+                    <div id="AutoTwo" class="tabcontent auto">
+                        <h2>Syllabus</h2>
+                    <p>To be updated soon.</p>
+                    </div>
+                    <div id="AutoThree" class="tabcontent auto">
+                        <h2>Syllabus</h2>
+                    <p>To be updated soon.</p>
+                    </div>
+                    <div id="AutoFour" class="tabcontent auto">
+                        <h2>Syllabus</h2>
+                    <p>To be updated soon.</p>
+                    </div>
+                    <div id="AutoFive" class="tabcontent auto">
+                        <h2>Syllabus</h2>
+                    <p>To be updated soon.</p>
+                    </div>
+                    <div id="AutoSix" class="tabcontent auto">
+                        <h2>Syllabus</h2>
+                    <p>To be updated soon.</p>
+                    </div>
+                </div>
+                <div id="vertical-ml" class="vertical-schedule">
+                    <h2>Machine Learning</h2>
+                    <p>Machine learning is a branch of artificial intelligence that focuses on using data and algorithms to imitate how humans learn, gradually improving accuracy. It involves the use and development of computer systems that learn and adapt without explicit instructions. It employs algorithms and statistical models to analyze and draw inferences from patterns in data. Hence it allows the computers to learn automatically without human intervention.</p<br>
+                    <h3>Schedule</h3>
+                    <div class="tab">
+                        <button class="tablinks ml_link active" onclick="openDay(event,'ml','ml_link', 'MLZero')">Day 0</button>
+                        <button class="tablinks ml_link" onclick="openDay(event,'ml','ml_link', 'MLOne')">Day 1</button>
+                        <button class="tablinks ml_link" onclick="openDay(event,'ml','ml_link', 'MLTwo')">Day 2</button>
+                        <button class="tablinks ml_link" onclick="openDay(event,'ml','ml_link', 'MLThree')">Day 3</button>
+                        <button class="tablinks ml_link" onclick="openDay(event,'ml','ml_link', 'MLFour')">Day 4</button>
+                        <button class="tablinks ml_link" onclick="openDay(event,'ml','ml_link', 'MLFive')">Day 5</button>
+                        <button class="tablinks ml_link" onclick="openDay(event,'ml','ml_link', 'MLSix')">Day 6</button>
+                    </div>
+                    
+                    <div id="MLZero" class="tabcontent ml activeDay">
+                        <h2>Syllabus</h2>
+                    <p>To be updated soon.</p>
+                    </div>
+                    
+                    <div id="MLOne" class="tabcontent ml">
+                        <h2>Syllabus</h2>
+                    <p>To be updated soon.</p>
+                    </div>
+                    
+                    <div id="MLTwo" class="tabcontent ml">
+                        <h2>Syllabus</h2>
+                    <p>To be updated soon.</p>
+                    </div>
+                    <div id="MLThree" class="tabcontent ml">
+                        <h2>Syllabus</h2>
+                    <p>To be updated soon.</p>
+                    </div>
+                    <div id="MLFour" class="tabcontent ml">
+                        <h2>Syllabus</h2>
+                    <p>To be updated soon.</p>
+                    </div>
+                    <div id="MLFive" class="tabcontent ml">
+                        <h2>Syllabus</h2>
+                    <p>To be updated soon.</p>
+                    </div>
+                    <div id="MLSix" class="tabcontent ml">
+                        <h2>Syllabus</h2>
+                    <p>To be updated soon.</p>
+                    </div>
+                    </div>
+
+        </div>
+    <div class="footer-section">
+        <div class="inner-footer">
+            <div class="footer-title">
+                <div id="footer-text">
+                    <a href="../../index.html">
+                    <img src="../Images/trs logo_1.png" alt="logo"><span id="footer-main-text">Winter School of AI & Robotics</span></a>
+                </div>
+                <div class="footer-sub-text">Introducing students to the concepts of Robotics.</div>
+            </div>
+
+            <!--  for quick links  -->
+            <div class="footer-items">
+                <!--for the underline -->
+                <ul>
+                    <a href="../../index.html#about-section">
+                        <li>About</li>
+                    </a>
+                    <a href="../../index.html#timeline-section">
+                        <li>Timeline</li>
+                    </a>
+                    <a href="../../index.html#contact-section">
+                        <li>Contact</li>
+                    </a>
+                    <a href="../Guest Lectures/guest-lectures.html">
+                        <li>Guest Lectures</li>
+                    </a>
+                </ul>
+            </div>
+
+            <!--  for contact us info -->
+            <div class="footer-items">
+                <ul>
+                    <a href="../../index.html#freshers-kit-section">
+                        <li>Freshers' Kit</li>
+                    </a>
+                    <a href="#">
+                        <li>Verticals</li>
+                    </a>
+                    <a href="../Archive/archive.html">
+                        <li>Archive</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+
+        <!--   Footer Bottom start  -->
+        <div class="footer-bottom">
+            Copyright &copy; Technology Robotix Society 2022.
+        </div>
+    </div>
+
+
+</div>
+
+<script>
+// Dark Mode
+function darkmodetoggler() {
+    var element = document.body;
+    element.classList.toggle("dark ");
+}
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+<script src="../../JS/countdown.js "></script>
+<script src="../../JS/sidebar.js "></script>
+<script src="../../JS/verticals.js "></script>
+</body>
+</html>
