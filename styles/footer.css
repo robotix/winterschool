@@ -1,0 +1,134 @@
+/* FOOTER */
+
+.footer-section {
+    float: left;
+    width: 100%;
+    display: block;
+    margin-top: 3vmax;
+}
+
+.inner-footer {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.footer-title{
+    width: 60%;
+    float: left;
+}
+.footer-sub-text{
+    width: 40%;
+    font-size: 1.3em;
+}
+@media screen and (max-width: 1284px) {
+    .footer-title{
+        width: 100%;
+    }
+    .footer-sub-text{
+        width: 100%;
+    }
+    .footer-items{
+        width: 50%;
+    }
+    
+}
+
+#footer-text {
+    position: relative;
+    text-decoration: none;
+    font-size: 2em;
+    padding-bottom: 2vmax;
+}
+
+#footer-text a{
+    text-decoration: none;
+            color: inherit;
+}
+
+
+#footer-text img {
+    height: auto;
+    width: 4vmax;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+    padding-right: 1vmin;
+    padding-bottom: 2px;
+}
+
+#footer-main-text {
+    font-weight: bolder;
+}
+
+@media screen and (max-width: 712px){
+    #footer-text{
+    font-size: 1.8em;
+    }
+}
+
+.footer-center{
+    text-align: left !important;
+    margin-left: 2vmax;
+}
+
+.footer-items {
+    width: 20%;
+    padding: 10px 0;
+    box-sizing: border-box;
+    color: rgb(59, 59, 59);
+}
+
+.footer-items p {
+    font-size: 16px;
+    text-align: justify;
+    line-height: 25px;
+}
+
+
+.footer-items ul {
+    list-style: none;
+}
+
+.footer-items ul a {
+    text-decoration: none;
+    outline: none;
+    transition: 0.3s;
+}
+
+.footer-items ul a{
+    text-decoration: none;
+    color: #35393C;
+}
+
+.footer-items ul a:hover {
+    color: rgb(53, 129, 184);
+}
+
+.footer-items ul li {
+    margin: 10px 0;
+    height: 25px;
+}
+
+.footer-bottom {
+    padding: 10px;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+
+/* for tablet mode view */
+
+@media screen and (max-width: 1275px) {
+    .footer-items {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .footer-items {
+        width: 100%;
+    }
+}

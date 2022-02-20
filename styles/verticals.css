@@ -1,0 +1,67 @@
+#verticals-section {
+    position: relative;
+    height: auto;
+    width: 100%;
+    float: left;
+}
+
+.vertical-schedule{
+    display: none;
+}
+
+.tab {
+    float: left;
+    width: 20%;
+  }
+  
+  /* Style the buttons that are used to open the tab content */
+  .tab button {
+    display: block;
+    background-color: inherit;
+    font-size: 1.5vmax;
+    color: black;
+    padding: 22px 10px;
+    width: 70%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: rgba(53, 129, 184, 0.5);
+  }
+  
+  /* Create an active/current "tab button" class */
+  .tab button.active {
+    border: 1px rgb(53, 129, 184) solid;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    float: left;
+    padding: 0px 12px;
+    padding: 5%;
+    margin: 5%;
+    margin-top: 0;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    width: 60%;
+    border-left: none;
+  }
+
+  .tabcontent.activeDay {
+    display: block;
+  }
+
+  @media screen and (max-width: 500px){
+    .tab button{
+      font-size: 0.6em;
+      padding: 22px 0;
+    }
+    
+  }
