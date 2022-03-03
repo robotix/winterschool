@@ -8,6 +8,10 @@
           method: 'POST',
           body: new FormData(form)
         })
-        .then(response => alert("Thanks for Contacting us..! We Will Reach Out to You Soon..."))
+        .then(response => alert("Thanks for Contacting us. We have received your query. We Will Reach Out to You Soon..."))
         .catch(error => console.error('Error!', error.message))
+        var element = document.getElementById("contact-us-button");
+        element.value = "Sent";
+        element.style.backgroundColor = "rgb(102, 157, 49)";
+
     })
