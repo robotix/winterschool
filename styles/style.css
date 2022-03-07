@@ -72,7 +72,7 @@
         
         .sidebar img {
             padding-top: 10px;
-            padding-bottom: 2vmax;
+            /* padding-bottom: 0.5vmax; */
             display: block;
             width: 80%;
             height: auto;
@@ -99,9 +99,9 @@
         }
         
         .sidebar a {
-            padding: 2px 20px 4px 20px;
+            padding: 10px 20px 2px 20px;
             text-decoration: none;
-            font-size: 23px;
+            font-size: 16px;
             display: block;
             transition: 0.3s;
             color: #35393C;
@@ -165,7 +165,7 @@
             max-width: 100%;
             top: 0;
             left: 0;
-            border-bottom: 1px rgb(155, 155, 155) solid;
+            /* border-bottom: 1px rgb(155, 155, 155) solid; */
             font-size: 2vmax;
             display: flex;
             align-items: center;
@@ -183,7 +183,7 @@
         
         #topbar-text img {
             height: auto;
-            width: 2vmax;
+            width: 3.5vmax;
             margin-left: auto;
             margin-right: auto;
             vertical-align: middle;
